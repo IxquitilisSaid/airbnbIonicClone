@@ -5,7 +5,22 @@
 </ion-header>
 
 <ion-content padding>
-  <ion-button color="primary" (click)="onLogin()">
-    Login
-  </ion-button>
+  <ion-list>
+    <ion-item>
+      <ion-label position="floating">E-mail</ion-label>
+      <ion-input type="email"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label position="floating">Password</ion-label>
+      <ion-input type="password"></ion-input>
+    </ion-item>
+  </ion-list>
+  <!-- <div text-center>
+    <ion-spinner 
+      color="primary"
+      *ngIf="isLoading"></ion-spinner>
+  </div> -->
+  <ion-button 
+    color="primary" 
+    (click)="onLogin()">Login</ion-button>
 </ion-content>
