@@ -11,7 +11,7 @@ export class PlacesService {
       'p1',
       'New York Mansion',
       'In the heart of New York City',
-      'http://tiny.cc/33xy3y',
+      'http://tiny.cc/42f6qz',
       4200.00
     ),
     new Place(
